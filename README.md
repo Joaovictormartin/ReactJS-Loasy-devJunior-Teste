@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+# Sobre
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Estes documento README tem como objetivo fornecer as informações necessárias para realização do projeto **ioasys books**.
 
-## Available Scripts
+# 🏗 O que fazer?
 
-In the project directory, you can run:
+- Você deve criar seu projeto e subir em um repositório e ao finalizar, enviar o link do seu repositório para a nossa equipe. Lembre-se, NÃO é necessário criar um Pull Request para isso, nós iremos avaliar e retornar por email o resultado do seu teste.
 
-### `yarn start`
+# 🚨 Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Seu projeto deverá ser construído utilizando **ReactJS** ou **Angular**.
+- Seu projeto deverá ser construído utilizando o layout disponibilizado na descrição do teste.
+- A integração com a API deve ser feita respeitando todos os contratos de OAuth.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# 🕵🏻‍♂️ Itens a serem avaliados
 
-### `yarn test`
+- Estrutura do Projeto
+- Boas práticas da Linguagem/Framework
+- Integração com API
+- Bibliotecas utilizadas
+- Estilização dos componentes
+- Persistência de login
+- Layout responsivo
+- Friendly URL
+- Seu projeto deverá seguir tudo o que foi exigido na seção **O que desenvolver?**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 🎁 Extra
 
-### `yarn build`
+Esses itens não obrigatórios, porém desejados.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Testes unitários
+- SEO
+- Linter
+- Code Formater
+- Documentação de componente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 🖥 O que desenvolver?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Você deverá construir um projeto utilizando o layout proposto
 
-### `yarn eject`
+- Login e acesso de Usuário já registrado
+- Para ter acesso as demais APIs precisamos enviar o **authorization** no header para autorizar a requisição;
+- Listagem de Livros
+- Detalhamento do Livro
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# 🔗 Links e Informações Importantes
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Layout
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Layout e recortes disponíveis no Figma
+- https://www.figma.com/file/YXuqJUzNZcR7GveJfVWCKo/Desafio-Frontend-ioasys-books
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Integração com API
 
-## Learn More
+- A documentação da API está disponível a partir de uma página web (https://books.ioasys.com.br/api/docs/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Documentação:** https://books.ioasys.com.br/api/docs/
+- **Servidor:** https://books.ioasys.com.br/api/v1
+- **Usuário de Teste:** desafio@ioasys.com.br
+- **Senha de Teste:** 12341234
